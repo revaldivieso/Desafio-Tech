@@ -20,6 +20,10 @@
 
 - [Bootstrap](https://getbootstrap.com).
 
+## Evaluación con Lighthouse
+
+![faro](readmeImg/faro.png)
+
 #### Tiempo de desarrollo
 
 20 horas.
