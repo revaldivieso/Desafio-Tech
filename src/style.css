@@ -1,0 +1,47 @@
+@media only screen and (max-width: 700px) and (min-width: 315px) {
+  /* For tablets and mobile */
+  .container {
+    text-align: center;
+    width: 100%;
+  }
+  .view-1 {
+    display: block;
+  }
+
+  .text {
+    margin-top: 1rem;
+  }
+  .view-2 {
+    display: block;
+  }
+  .card {
+    margin: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .container {
+    text-align: center;
+  }
+  .view-1 {
+    display: block;
+    margin-bottom: 5rem;
+  }
+  .text {
+    margin-top: 2rem;
+  }
+
+  .view-2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    margin: 1rem;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+}
