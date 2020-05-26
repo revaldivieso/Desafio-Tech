@@ -2,7 +2,7 @@
 
 ## Descripción del proyecto 💻
 
-[Encuéntrame](https://tenpo-hack.web.app/), es una aplicacion web diseñada para que el usuario pueda conocer a tu próxima cita, al escoger el género de su preferencia.
+[Encuéntrame](), es una aplicacion web diseñada para que el usuario pueda conocer a tu próxima cita, al escoger el género de su preferencia.
 
 ## Definición de Usuario 👥
 
