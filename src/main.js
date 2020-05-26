@@ -1,6 +1,6 @@
 function showData(results) {
   return `<div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="${results.picture.medium}" alt="image">
+                <img class="card-img-top" src="${results.picture.large}" alt="image">
                 <div class="cartas card-body">
                  <h4 class="name">${results.name.title} ${results.name.first} ${results.name.last}</h4>
                    <p class="gender">Género: ${results.gender}</p>
@@ -9,9 +9,13 @@ function showData(results) {
                     <p class="phone">Teléfono: ${results.cell}</p>
                     <p class="email">Email: ${results.email}</p>
                     <p class="location">País: ${results.location.country}, ${results.location.city}</p>
+                    <a href="#" class="heart btn btn-primary stretched-link">
+                        <i class="fas fa-heart"></i></a>
+                    <a href="#" class="heart btn btn-primary stretched-link">
+                        <i class=" fas fa-heart-broken"></i></a>
                    </div>
-              </div>
-          </div>`;
+               </div>
+           </div>`;
 }
 let data = undefined;
 const showApi = async (gender = undefined) => {
