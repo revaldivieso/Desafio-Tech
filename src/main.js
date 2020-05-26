@@ -1,5 +1,6 @@
 function showData(results) {
-  return `<div class="card" style="width: 18rem;">
+  return `<div>
+  class="card" style="width: 18rem;">
               <img class="card-img-top" src="${results.picture.medium}" alt="image">
               <div class="cartas card-body">
                  <h4 class="name">${results.name.title} ${results.name.first} ${results.name.last}</h4>
@@ -9,6 +10,7 @@ function showData(results) {
                    <p class="phone">Teléfono: ${results.cell}</p>
                    <p class="email">Email: ${results.email}</p>
                    <p class="location">País: ${results.location.country}, ${results.location.city}</p>
+                </div>
                 </div>
           </div>`;
 }
